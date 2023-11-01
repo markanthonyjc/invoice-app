@@ -1,0 +1,35 @@
+.content {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  flex-grow: 1;
+
+  border-right: 1px solid #7E88C3;
+
+  > .theme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 72px;
+
+    > img {
+      width: 19px;
+      height: 19px;
+    }
+  }
+}
+
+@media (width >= 768px) {
+  .content {
+    flex-direction: column;
+    justify-content: end;
+    border-right: none;
+
+    border-bottom: 1px solid #7E88C3;
+
+    > .theme {
+      width: 103px;
+      height: 103px;
+    }
+  }
+}

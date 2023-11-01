@@ -1,0 +1,19 @@
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+
+  > img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+}
+
+@media (width >= 768px) {
+  .user {
+    width: 103px;
+    height: 103px;
+  }
+}
