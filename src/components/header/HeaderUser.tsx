@@ -4,7 +4,7 @@ import { ImageAvatar } from '../../assets/images'
 
 const HeaderUser = () => {
   return <div className={style.user}>
-        <img src={ImageAvatar} alt="HeaderUser image"/>
+        <img src={ImageAvatar} alt="User image"/>
     </div>
 }
 
