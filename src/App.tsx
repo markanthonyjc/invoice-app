@@ -1,11 +1,12 @@
 import './App.scss'
+import Header from './components/header/Header'
+import Content from './components/Content'
 
-function App() {
-    return (
-        <>
-            <h1>Hello world</h1>
-        </>
-    )
+function App () {
+  return <>
+        <Header/>
+        <Content/>
+    </>
 }
 
 export default App
