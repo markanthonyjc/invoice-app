@@ -6,5 +6,12 @@ export default defineConfig({
   plugins: [react()],
   test: {
     environment: 'happy-dom'
+  },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@import "./src/assets/styles/_mixins.scss";`
+      }
+    }
   }
 })
