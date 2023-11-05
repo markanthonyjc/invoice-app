@@ -1,0 +1,7 @@
+@mixin flex-row-center($gap-size: 1rem) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: $gap-size;
+}
