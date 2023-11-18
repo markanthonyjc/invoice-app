@@ -1,4 +1,4 @@
-import InvoiceHeader from './InvoiceHeader'
+import InvoiceHeader from './invoice-header/InvoiceHeader'
 
 const Invoice = () => {
   return (
