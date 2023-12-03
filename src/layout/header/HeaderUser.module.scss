@@ -1,7 +1,5 @@
 .user {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include flex-row-center;
   width: 72px;
 
   > img {

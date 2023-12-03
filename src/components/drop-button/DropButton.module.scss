@@ -7,45 +7,26 @@
   height: 48px;
 
   .button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    @include flex-row-center;
     gap: 0.5rem;
-
-    text-align: right;
-    font-weight: var(--text-weight-bold);
-    line-height: 15px;
-    letter-spacing: -0.25px;
     user-select: none;
-    flex-grow: 1;
+
+    >span {
+      text-align: right;
+      @include bodyH4;
+    }
   }
 
   .dialog {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
-
+    @include flex-column-center;
+    gap: 1rem;
     position: absolute;
     margin-top: 3rem;
-    transform: translate(-30%, 0);
     width: 192px;
-    border-radius: 8px;
-    background: #FFF;
-    box-shadow: 0 10px 20px 0 rgba(72, 84, 159, 0.25);
-    padding: 1rem;
-    animation: show 0.5s ease-in-out;
+    transform: translate(-30%, 0);
 
-    @keyframes show {
-      0% {
-        opacity: 0;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
+    @include card-popup;
+    padding: 1.5rem;
 
     &--hidden {
       display: none;

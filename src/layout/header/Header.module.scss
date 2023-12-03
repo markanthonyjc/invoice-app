@@ -1,8 +1,7 @@
 .header {
-  display: flex;
-  flex-direction: row;
+  @include flex-row;
   height: 72px;
-  background-color: #252945;
+  background-color: $complementary;
 }
 
 @media (width >= 768px) {

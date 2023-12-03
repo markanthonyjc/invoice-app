@@ -1,6 +1,6 @@
 import { afterEach, test } from 'vitest'
 import { cleanup, render, screen } from '@testing-library/react'
-import Header from '../../pages/home/header/Header'
+import Header from '../../layout/header/Header'
 
 test('Should show the app logo', () => {
   afterEach(cleanup)

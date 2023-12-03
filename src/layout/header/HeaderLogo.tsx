@@ -1,5 +1,5 @@
 import style from './HeaderLogo.module.scss'
-import { Logo } from '../../../assets/images'
+import { Logo } from '../../assets/images'
 
 const HeaderLogo = () => {
   return <div className={style.logo}>

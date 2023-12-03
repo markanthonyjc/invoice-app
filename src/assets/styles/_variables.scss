@@ -16,27 +16,36 @@ $base-font: 'Spartan', san-serif;
 // colors
 $primary: #7C5DFA !default;
 $secondary: #1E2139 !default;
+$secondary-light: #F9FAFE !default; //#DFE3FA
+$secondary-dark: #252945 !default;
 
-$primary-light: #9277FF !default;
-$secondary-light: #252945 !default;
+$complementary: #373B53 !default;
 
-// $text-primary-light: #0C0E16 !default;
-$text-primary: #888EB0 !default;
+$hover-primary: #9277FF !default;
+$hover-secondary-light: #DFE3FA !default;
+$hover-secondary-dark: #1E2139 !default;
+
+$text-primary-light: #0C0E16 !default;
+$text-secondary-light: #7E88C3 !default;
+$text-primary-dark: #FFF !default;
+$text-secondary-dark: #DFE3FA !default;
+
+$text-complementary: #888EB0 !default;
 
 $background-light: #F8F8FB !default;
 $background-dark: #141625 !default;
 
-$danger: #EC5757 !default;
-$danger-light: #9277FF !default;
-
 $white: #FFF !default;
-$black: #0C0E16 !default;
+$black: #000 !default;
 
 $success: #33D69F !default;
 $success-light: rgba(#33D69F, 0.0571) !default;
 
 $warning: #FF8F00 !default;
 $warning-light: rgba(#FF8F00, 0.0571) !default;
+
+$danger: #EC5757 !default;
+$danger-light: #9277FF !default;
 
 $info: #373B53 !default;
 $info-light: rgba(#373B53, 0.0571) !default;

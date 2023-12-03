@@ -8,7 +8,7 @@
     width: 104px;
     height: 40px;
 
-    span {
+    >span {
         @include bodyH3;
     }
 

@@ -1,14 +1,16 @@
 import style from './Badge.module.scss'
 import type { Props } from './Badge.d'
 
-const modifiersStyles: Record<string, string> = {
+const modifierStyles: Record<string, string> = {
   Paid: '--paid',
   Pending: '--pending',
   Draft: '--draft'
 }
 
 const Badge = ({ name, iconComponent, icon }: Props) => {
-  const badgeStyle = `${style.badge} ${style[`badge${modifiersStyles[name]}`] ?? ''}`.trim()
+  const modifierStyle = modifierStyles[name] ?? ''
+  const modifier = style[`badge${modifierStyle}`] ?? ''
+  const badgeStyle = `${style.badge} ${modifier}`.trim()
 
   return <div className={badgeStyle}>
         {iconComponent}

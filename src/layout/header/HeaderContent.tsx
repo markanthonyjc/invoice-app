@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './HeaderContent.module.scss'
-import { IconMoon } from '../../../assets/images'
+import { IconMoon } from '../../assets/images'
 
 const HeaderContent = () => {
   return <div className={style.content}>

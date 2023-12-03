@@ -1,15 +1,13 @@
 .content {
-  display: flex;
+  @include flex-row;
   justify-content: right;
   align-items: center;
   flex-grow: 1;
 
-  border-right: 1px solid #7E88C3;
+  border-right: 1px solid #494E6E;
 
   > .theme {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-row-center;
     width: 72px;
 
     > img {
@@ -25,7 +23,7 @@
     justify-content: end;
     border-right: none;
 
-    border-bottom: 1px solid #7E88C3;
+    border-bottom: 1px solid #494E6E;
 
     > .theme {
       width: 103px;

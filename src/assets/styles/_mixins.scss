@@ -45,3 +45,33 @@
   background: $white;
   box-shadow: $base-box-shadow;
 }
+
+@mixin card-popup {
+  border-radius: 8px;
+  background: $white;
+  box-shadow: 0px 10px 20px 0px rgba(72, 84, 159, 0.25);
+}
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,5 +1,5 @@
-import Content from './Content'
-import Header from './header/Header'
+import Content from '../../layout/Content'
+import Header from '../../layout/header/Header'
 
 const Home = () => {
   return <>
