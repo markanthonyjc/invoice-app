@@ -1,0 +1,69 @@
+@font-face {
+    font-family: 'Spartan';
+    src: url('@/assets/fonts/LeagueSpartan-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Spartan';
+    src: url('@/assets/fonts/LeagueSpartan-Bold.ttf') format('truetype');
+    font-weight: 700;
+}
+
+// fonts
+$base-font: 'Spartan', san-serif;
+
+// colors
+$primary: #7C5DFA !default;
+$secondary: #1E2139 !default;
+$secondary-light: #F9FAFE !default; //#DFE3FA
+$secondary-dark: #252945 !default;
+
+$complementary: #373B53 !default;
+
+$hover-primary: #9277FF !default;
+$hover-secondary-light: #DFE3FA !default;
+$hover-secondary-dark: #1E2139 !default;
+
+$text-primary-light: #0C0E16 !default;
+$text-secondary-light: #7E88C3 !default;
+$text-primary-dark: #FFF !default;
+$text-secondary-dark: #DFE3FA !default;
+
+$text-complementary: #888EB0 !default;
+
+$background-light: #F8F8FB !default;
+$background-dark: #141625 !default;
+
+$white: #FFF !default;
+$black: #000 !default;
+
+$success: #33D69F !default;
+$success-light: rgba(#33D69F, 0.0571) !default;
+
+$warning: #FF8F00 !default;
+$warning-light: rgba(#FF8F00, 0.0571) !default;
+
+$danger: #EC5757 !default;
+$danger-light: #9277FF !default;
+
+$info: #373B53 !default;
+$info-light: rgba(#373B53, 0.0571) !default;
+
+// font sizes
+$base-font-size: 1rem !default;
+$font-size-xs: 11px !default;
+$font-size-sm: 12px !default;
+$font-size-lg: 16px !default;
+$font-size-xl: 20px !default;
+$font-size-xxl: 32px !default;
+
+// font weight
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+// borders
+$base-border-radius: 8px !default;
+
+// box-shadow
+$base-box-shadow: 0px 10px 10px -10px rgba(72, 84, 159, 0.10) !default;

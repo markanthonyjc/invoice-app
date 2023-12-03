@@ -1,7 +1,5 @@
 .logo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include flex-row-center;
   width: 72px;
   background-image: url("../../assets/images/logo-background-mobile.svg");
   background-repeat: no-repeat;

@@ -1,0 +1,35 @@
+.dropdown {
+  position: relative;
+  display: inline-flex;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 28px;
+  height: 48px;
+
+  .button {
+    @include flex-row-center;
+    gap: 0.5rem;
+    user-select: none;
+
+    >span {
+      text-align: right;
+      @include bodyH4;
+    }
+  }
+
+  .dialog {
+    @include flex-column-center;
+    gap: 1rem;
+    position: absolute;
+    margin-top: 3rem;
+    width: 192px;
+    transform: translate(-30%, 0);
+
+    @include card-popup;
+    padding: 1.5rem;
+
+    &--hidden {
+      display: none;
+    }
+  }
+}

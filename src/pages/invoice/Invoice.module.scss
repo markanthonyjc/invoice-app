@@ -1,0 +1,4 @@
+.invoice {
+    @include flex-column;
+    gap: 1rem;
+}

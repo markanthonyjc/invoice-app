@@ -1,0 +1,29 @@
+.badge {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    gap: 0.5rem;
+    
+    width: 104px;
+    height: 40px;
+
+    >span {
+        @include bodyH3;
+    }
+
+    &--paid {
+        background-color: $success-light;
+        color: $success;
+    }
+
+    &--pending {
+        background-color: $warning;
+        color: $warning-light;
+    }
+
+    &--draft {
+        background-color: $info;
+        color: $info-light;
+    }
+}

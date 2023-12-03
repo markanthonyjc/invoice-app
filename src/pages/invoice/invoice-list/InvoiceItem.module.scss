@@ -1,0 +1,48 @@
+.invoice-item {
+    @include flex-column;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    height: 134px;
+
+    @include card;
+
+    > div:first-child {
+        @include flex-row;
+        justify-content: space-between;
+
+
+        p:nth-child(1) {
+            @include bodyH4;
+
+            span {
+                @include bodyH4;
+                color: $text-secondary-light;
+            }
+        }
+
+        p:nth-child(2) {
+            @include body1;
+            color: $text-secondary-light;
+        }
+    }
+
+    > div:last-child {
+        @include flex-row;
+        justify-content: space-between;
+
+        >div:first-child {
+            @include flex-column;
+            align-items: flex-start;
+            justify-content: center;
+
+            p {
+                @include body1;
+                color: $text-secondary-light;
+            }
+
+            span {
+                @include bodyH3;
+            }
+        }
+    }
+}

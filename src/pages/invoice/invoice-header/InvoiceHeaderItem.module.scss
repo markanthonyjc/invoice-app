@@ -1,0 +1,4 @@
+.invoice-header-items {
+  @include flex-row-center;
+  gap: 1rem;
+}
