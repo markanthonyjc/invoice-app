@@ -1,5 +1,10 @@
 button {
-  @include flex-row-center(0.5rem);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
   border: none;
   border-radius: 24px;
   width: auto;
@@ -9,7 +14,11 @@ button {
   cursor: pointer;
 
   .icon {
-    @include flex-row-center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
     width: 32px;
     height: 32px;
     background-color: white;

@@ -6,12 +6,14 @@ module.exports = {
   overrides: [{
     env: {
       node: true
-    }, files: ['.eslintrc.{js,cjs}'], parserOptions: {
+    },
+    files: ['.eslintrc.{js,cjs}'],
+    parserOptions: {
       sourceType: 'script'
     }
   }],
   parserOptions: {
-    ecmaVersion: 'latest', sourceType: 'module', project: './tsconfig.json'
+    ecmaVersion: 'latest', sourceType: 'module', project: ['./tsconfig.json', './tsconfig.node.json']
   },
   plugins: ['react'],
   rules: { 'react/react-in-jsx-scope': 'off', '@typescript-eslint/explicit-function-return-type': 'off', '@typescript-eslint/triple-slash-reference': 'off' }

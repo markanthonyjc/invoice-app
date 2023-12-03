@@ -1,11 +1,9 @@
 import './App.scss'
-import Header from './components/header/Header'
-import Content from './components/Content'
+import Home from './pages/home/Home'
 
-function App () {
+const App = () => {
   return <>
-        <Header/>
-        <Content/>
+        <Home/>
     </>
 }
 

@@ -1,10 +1,12 @@
 import InvoiceHeader from './invoice-header/InvoiceHeader'
+import InvoiceList from './invoice-list/InvoiceList'
 
 const Invoice = () => {
   return (
-        <div>
+        <section>
             <InvoiceHeader />
-        </div>
+            <InvoiceList />
+        </section>
   )
 }
 

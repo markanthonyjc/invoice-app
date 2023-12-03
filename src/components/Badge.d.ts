@@ -1,6 +1,7 @@
 interface Props {
-  id: number
   name: string
+  iconComponent?: JSX.Element
+  icon?: string
 }
 
 export type { Props }

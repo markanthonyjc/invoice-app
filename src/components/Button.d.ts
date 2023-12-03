@@ -1,5 +1,7 @@
-type Props = {
-    name: string;
-    icon: string;
-    onClickHandler?: (event: MouseEvent) => void;
+interface Props {
+  name: string
+  icon: string
+  clickHandler?: (event: MouseEventHandler<HTMLButtonElement>) => void
 }
+
+export type { Props }
